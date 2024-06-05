@@ -4,6 +4,9 @@
 body{
     font-family: 'Roboto';
 }
+#hub{
+    color: #E51075;
+}
 .right-bar {
     display: flex;
     flex-direction: row;
@@ -278,7 +281,7 @@ body{
 #poster>div>div+div{
     display: flex;
     justify-content: space-between;
-    margin-top: -10px;
+    margin-top: 10px;
     color: rgb(66, 64, 64);
 }
 #poster2{
@@ -396,5 +399,23 @@ body{
       }
       .test a {
         font-size: 10px;
+      }
+      #project {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      #poster {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      #poster2 > div {
+        top: 1px;
+      }
+      #poster2 {
+        padding-bottom: 20px;
+      }
+      .navigation-links a {
+        display: none;
+      }
+      .primary-button {
+        display: none;
       }
   }
